@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 2, 39);
+    color: white;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(58, 16, 16)
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    /*when we hover over anchor tag its colour will change  */
+    color: rgb(181, 189, 169);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    /* color:white ; */
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px 0px;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+
+}
+
+.leftSection .btn {
+    padding: 5px;
+    background-color: rgb(10, 2, 39);
+    color: blueviolet;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover {
+    color: yellow;
+}
+
+.leftSection .buttons {
+    padding: 15px 0;
+}
+
+.rightSection img {
+    width: 110%;
+    margin: 40px 0;
+
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+
+}
+
+
+
+main hr {
+    border: 0;
+    height: 1px;
+    background: blueviolet;
+    margin: 10px 60px;
+}
+
+footer {
+    background-color: #180334;
+
+    margin: 40px 0 0 0;
+}
+
+footer .footer-rights {
+    color: blueviolet;
+    padding: 12px 0;
+    text-align: center;
+
+}
+
+/* for contact me  */
+.contact {
+    width: 22%;
+}
+
+.secondSection {
+    height: 70vh;
+    margin: 65px 0;
+}
+
+
+.secondSection h2 {
+    margin: 0 110px;
+    font-size: 1.7rem;
+}
+
+.grey {
+    margin: 0 111px;
+    color: grey;
+    font-size: 12px;
+}
+
+.box {
+    height: 1.5px;
+    background: white;
+    padding: 0;
+    margin: 70px 165px;
+    display: flex;
+
+
+}
+
+.secondSection .vertical {
+    background-color: white;
+    height: 50px;
+    width: .5px;
+    margin: 0px 115px;
+}
+
+.vertical-title {
+    position: relative;
+    left: -44px;
+    top: 8px;
+    width: 240px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 17px;
+    font-size: 14px;
+    left: -43px;
+    width: 210px;
+}
+
+.img-top {
+    width: 45px;
+    position: relative;
+    top: -50px;
+    left: -23px;
+}
+.box .vertical-title:hover{
+    color: blueviolet;
+
+}
+.secondSection h2:hover{
+    color: blueviolet;
+}
+.box .verticle-desc:hover{
+    color: yellow;
+    font-size: 17px;
+}
+.box .img-top:hover {
+    width: 50px;
+}
+
+.box #higher .img-top:hover {
+    width: 67px;
+}
+
+.box #ncc .img-top:hover {
+    width: 32px;
+}
+
+
+#higher .img-top {
+    position: relative;
+    top: -41px;
+    left: -31px;
+    width: 63px;
+}
+
+#higher .vertical-title {
+    position: relative;
+    top: 21px;
+}
+
+#higher .verticle-desc {
+    position: relative;
+    top: 28px;
+}
+
+#university .img-top {
+    position: relative;
+    top: -39px;
+    left: -22px
+}
+
+#university .vertical-title {
+    position: relative;
+    top: 21px;
+    left: -47px;
+}
+
+#university .verticle-desc {
+    position: relative;
+    top: 28px;
+}
+
+#ncc .img-top {
+    position: relative;
+    top: -41px;
+    left: -13px;
+    width: 27px;
+}
+
+#ncc .vertical-title {
+    width: -0.5px;
+}
+
+#ncc .verticle-desc {
+    position: relative;
+    top: 13px;
+
+}
+
+#volleyball .vertical-title {
+    position: relative;
+    top: 5px;
+    left: -47px;
+}
+
+#volleyball .verticle-desc {
+    position: relative;
+    top: 13px;
+}
